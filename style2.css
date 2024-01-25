@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: URL("background1.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 400px;
+  background-color: #f2606c;
+  text-align: center;
+  border-radius: 10px;
+  font-family: "Dancing Script", cursive;
+}
+
+.container p {
+  margin: 20px;
+}
+
+.container button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-bottom: 7px;
+  font-size: 1em;
+  text-decoration: none;
+  background-color: #2ebeb4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.container button:hover {
+  background-color: #eabe9b;
+}
